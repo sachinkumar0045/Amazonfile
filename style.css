@@ -1,0 +1,448 @@
+*{
+    margin: 0%;
+    /* padding: 0%; */
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    margin-left: -15px;
+}
+.logo{
+    background-image: url("amazon image2.png");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin-left: -15px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/*box2*/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    color: #cccccc;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    color: orange;
+}
+/* box3 */
+.search{
+    display: flex;
+    width: 690px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px ;
+    border: none;
+    text-align: center;
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+button{
+    width: 45px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: orange;
+    border: none;
+    font-size: 1.2rem;
+}
+.search:hover{
+    border: 2px solid orange;
+}
+/* box4 */
+.text{
+    text-align: center;
+}
+span{
+    color: #cccccc;
+    font-size: 0.8rem;
+}
+.text2{
+    color: #cccccc;
+    font-weight: 700;
+}
+.texticon{
+    display: flex;
+    color: #cccccc;
+}
+/*box5 */
+.nav-text{
+    color: #cccccc;
+    height: 45px;
+    width: 70px;
+}
+.text3{
+    font-weight: 700;
+}
+/* box6 */
+.cart{
+    color: #cccccc;
+    display: flex;
+    align-items: center;
+}
+.cart1{
+    color: orange;
+    font-size: 30px;
+    margin-right: 2px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*panel */
+.panel{
+    height: 50px;
+    width: 100%;
+    display: flex;  /* all divs are in HZ*/
+    align-items: center; /* words comes center along verticle */
+    justify-content:space-between;
+    color:white;
+    background-color:#222f3d;
+}
+.panel-all{
+     display: flex;
+     /* color: #cccccc; */
+     font-weight: 700;
+     height: 80%;
+     width: 50px;
+     align-items: center;
+}
+.panel-opps{
+    display: flex;
+    width: 70%;
+}
+.panel-opps p{
+    
+    margin-left: 25px;
+}
+.panel-deals{
+    font-weight: 700;
+    height: 70%;
+    align-items: center;
+}
+/*hero */
+
+ .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 1000px; */
+}  
+.hero img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* display: flex;
+    justify-content: center;
+     align-items: center;  */
+}
+.hero-text{
+     /* position: absolute; 
+     top: 50%;
+    left: 50%; */
+    /* transform: translate(-50% , -50%); */
+    /* flex-direction: column;  */
+    justify-content: center;  
+    display: flex;
+    margin-top: -300px;
+    text-align: center;
+    color:black;
+    background-color: white;
+    width: 95%;
+    padding: 10px;
+}
+.hero-text a{
+    margin-left: 9px;
+    color: #00aaff;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*shop-section*/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap; /* 4-boxes are in one page */
+    justify-content: space-evenly;
+    background-color: rgb(185, 181, 176);
+    height: 1000px;
+}  
+  .box{
+    height: 450px;
+    width: 24%;
+    margin-top: 20px;
+    background-color:white;
+    /* border: 2px solid black; */
+  }
+  .box1 h2{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+.box1-img1{
+    height: 350px;
+    width: 84%;
+}
+.box1-img1 img{
+    height: 100%;
+    width: 100%;
+    margin-left: 23px;
+    margin-top: 19px;
+}
+.game-text{
+    margin-top: 10px;
+}
+.game-text a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 700;
+    position: absolute;
+    bottom: -31%;
+}
+.shop1-dress{
+    display: flex;
+    height: 170px;
+    width: 90%; 
+}
+.shop1-dress1{
+    /* margin-top: 20px; */
+    /* margin-left: 10px; */
+    height:170px ;
+    width: 66%;
+}
+.shop1-dress1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.shop1-dress1 h5 {
+    margin-left: 30px;
+} 
+.shop1-dress2{
+    margin-top: 25px;
+    height: 170px;
+    width: 56%;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.shop1-dress2 img{
+    height: 90%;
+    width: 120%;
+    object-fit: cover;
+
+}
+.shop1-dress2 h5{
+    margin-left: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.shop2-dress{
+    display: flex;
+    height: 170px;
+    width: 90%;
+}
+.shop2-dress1{
+    height: 170px;
+    width: 100%;
+    margin-top: 10%;
+}
+.shop2-dress1 img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+    margin-top:14%;
+}
+.shop2-dress2{
+        height: 170px;
+        width: 100%;
+        margin-top: 10%;
+        /* margin-left: 30%; */
+}
+.shop2-dress2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}.shop2-dress h4{
+    margin-left: 80px;
+    /* margin-top: 10px; */
+}
+.decoration{
+    height: 350px;
+    width: 84%;
+
+}
+.box3 h2{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.decoration img{
+    height: 100%;
+    width: 100%;
+    margin-top: 18px;
+    margin-left: 28px;
+    object-fit: cover;
+}
+.decoration a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+     position: absolute;
+    bottom: -31%;
+}
+.furniture{
+    height: 350px;
+    width: 84%;
+}
+.box4 h2{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.furniture img{
+    height: 100%;
+    width: 100%;
+    margin-top: 18px;
+    margin-left: 28px;
+    object-fit: cover;
+}
+.furniture a{
+     text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+     position: absolute;
+    bottom: -31%;
+}
+.box-content{
+    width: 84%;
+    margin-left: 1.6rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    /* margin-left: 28px; */
+}
+ .box5-img{
+    height: 350px;
+    width: 100%;
+    background-size:contain;
+    margin-top: 0.8rem;
+    margin-left: 4px;
+ }
+.box-content p{
+    color: rgb(96, 96, 194);
+    font-weight: 600;
+    margin-top: 1rem;
+}
+/* footer */
+footer{
+    /* margin-top: 10px; */
+    border-top:2px solid rgb(249, 245, 245);
+}
+.foot-panel{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel:hover{
+    color: black;
+}
+.foot-panel2{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #04172c;
+  font-size: 0.85rem;
+  height: 300px;
+}
+.foot{
+    color: white;
+}
+.foot h3{
+    margin-top: 60px;
+    margin-bottom: 10%;
+}
+.foot p{
+    color: #dddddd;
+    margin: 4px;
+}
+.bottom{
+    height: 110px;
+    background-color:#04172c ;
+    border-top:0.01px solid rgb(184, 178, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-logo{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    
+}
+.bottom-logo-img {
+    background-image: url("amazon image2.png");
+    height: 100%;
+    width: 51%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+} 
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f3f3f3;
+    border: 0.01px solid rgb(93, 92, 91);
+    height: 40px;
+    margin-right: 10px;
+    padding-left: 10px ;
+    padding-right: 15px;
+}
+.last i{
+    margin-right: 10px;
+
+}
+.slide{
+  position: relative;
+  left: 15px;
+}
+.flag{
+    color: rgb(217, 144, 9);
+}
+.pages{
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.page1{
+    padding: 15px;
+}
